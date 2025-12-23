@@ -1,0 +1,7 @@
+{
+  "build": {"dockerfile": "Dockerfile"},
+  "postCreateCommand": "postcreate.sh",
+
+  "runArgs": ["-e", "COLORTERM=truecolor"
+    "-e", "DIEGO=diego"]
+}
