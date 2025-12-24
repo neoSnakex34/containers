@@ -32,7 +32,10 @@ mv helix*/runtime ~/.config/helix/
 
 rm ./helix* -rf 
 
-echo '[lsp]
+echo '
+theme="base16_transparent"
+
+[lsp]
 command = "clangd"
 root_file = "CMakeLists.txt"
 filetypes = ["c", "cpp"]' > ~/.config/helix/clangd.toml
