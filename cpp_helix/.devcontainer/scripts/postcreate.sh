@@ -33,11 +33,15 @@ mv helix*/runtime ~/.config/helix/
 rm ./helix* -rf 
 
 echo '
-theme="base16_transparent"
+theme="bogster"
+' > ~/.config/helix/config.toml
+echo -e "bogster theme set\n"
 
+echo ' 
 [lsp]
 command = "clangd"
 root_file = "CMakeLists.txt"
 filetypes = ["c", "cpp"]' > ~/.config/helix/clangd.toml
+echo -e "lsp for c/cpp set\n\n"
 
 echo "config complete!"
