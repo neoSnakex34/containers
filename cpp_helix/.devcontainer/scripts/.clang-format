@@ -1,0 +1,8 @@
+---
+BasedOnStyle: LLVM
+BreakBeforeBraces: Allman
+IndentWidth: 4          # Assicurati che l'indentazione sia definita (es. 4 spazi)
+# AccessModifierOffset: -4 # Solitamente 0 o un valore negativo
+
+...
+
