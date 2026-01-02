@@ -45,6 +45,6 @@ filetypes = ["c", "cpp"]' > ~/.config/helix/clangd.toml
 echo -e "lsp for c/cpp set\n\n"
 
 echo "setting up clang format style in ~"
-cp .devcontainer/scripts/.clang-format ~/
+cp .devcontainer/scripts/.clang-format .
 
 echo "config complete!"
