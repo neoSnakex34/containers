@@ -6,7 +6,7 @@ semi-reproducible development environment on non-nix systems
 ## Stack needed
 
   - Podman
-  - Docker (possibly rootless) [note that can be avoided using podman with some thinkering]
+  - Docker (possibly rootless) [note that can be avoided using podman]
   - Devcontainers/CLI (it needs Node.js)
 
 ## Why should I use it?
