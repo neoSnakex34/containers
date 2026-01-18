@@ -10,7 +10,7 @@ echo "downloading Helix..."
 curl -s https://api.github.com/repos/helix-editor/helix/releases/latest \
   | jq -r '.assets[] | select(.name | test("x86_64-linux.tar.xz")) | .browser_download_url' > helix_download_url.txt
 
-if [[ ! -s helix_download_url.txt ]]; then
+if [ ! -s helix_download_url.txt ]; then
   echo "no download found!"
   exit 1
 fi
