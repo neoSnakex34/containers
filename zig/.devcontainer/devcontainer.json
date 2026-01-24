@@ -1,0 +1,9 @@
+{
+  "name": "Zig OCI Dev",
+  "image": "localhost/zig-dev:latest",
+  
+  "initializeCommand": "podman image exists localhost/zig-dev:latest || buildah unshare bash \"${localWorkspaceFolder}/.devcontainer/scripts/zig_image.sh\"",
+
+  "remoteUser": "user",
+  //"runArgs": [ "--userns=keep-id" ],
+}
