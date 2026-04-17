@@ -1,0 +1,20 @@
+{
+    "name": "Django Podman",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "runArgs": [
+        "-p",
+        "8000:8000" 
+    ],
+    "forwardPorts": [],
+
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/workspaces/venv/bin/python"
+            }
+        }
+    }
+}
