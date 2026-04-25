@@ -1,0 +1,5 @@
+{
+  "name": "CPP dev env",
+  "image": "cpp-exam-env:latest",
+  
+}
